@@ -52,13 +52,13 @@
 引入变量，$A$ : A是骑士； $B$：B是骑士。根据题目的意义和两个人的说法，分别有：
 $$
 \begin{align}
-(A \and B) \or (\neg A \and \neg B) &= T  \\
-(B \and \neg A) \or (\neg B \and \neg A) &=T
+(A \wedge B) \or (\neg A \wedge \neg B) &= T  \\
+(B \wedge \neg A) \or (\neg B \wedge \neg A) &=T
 \end{align}
 $$
 好了，这就是这个问题的模型。这里如果你对这两句的具体形式有疑问，那没有问题，后面讲解。但一定要想你怎样解决分馒头的问题，明白这就是问题的模型，她描述了问题的条件。现在就变成了求解$A,B$ 的值（$T 或者 F$），使这两个命题公式**都**成立。
 
-> 上面的（1）式，是怎么来的，就是需要大家掌握的一个基本功：把一个命题翻译成命题公式。如果现在做不来，没关系，后面就习惯了。可能有人会说，为什么不翻译为：$(A \rarr B) \or (\neg A \rarr \neg B) $ .这样不精确。根据$\rarr$的含义，$A \rarr B$ 确实表示了如果A是骑士，那么他说的话也是真的，即B也是骑士这个条件。但他还有一个意思，如果A不是骑士，那么不管B是骑士还是无赖，这个命题都为真。但这个明显放松了题目的条件要求。题目中无赖说的都是假的，因此如果A是无赖，他的话必须是假话，即B是必须是无赖。
+> 上面的（1）式，是怎么来的，就是需要大家掌握的一个基本功：把一个命题翻译成命题公式。如果现在做不来，没关系，后面就习惯了。可能有人会说，为什么不翻译为：$(A \rightarrow B) \or (\neg A \rightarrow \neg B) $ .这样不精确。根据$\rarr$的含义，$A \rarr B$ 确实表示了如果A是骑士，那么他说的话也是真的，即B也是骑士这个条件。但他还有一个意思，如果A不是骑士，那么不管B是骑士还是无赖，这个命题都为真。但这个明显放松了题目的条件要求。题目中无赖说的都是假的，因此如果A是无赖，他的话必须是假话，即B是必须是无赖。
 
 第二步 求解
 
@@ -79,15 +79,15 @@ $$
 
 根据题意，还可以将（1）表达为下面的等式：
 $$
-\tag{3} (A \rarr B) \and (\neg A \rarr \neg B)
+\tag{3} (A \rightarrow B) \wedge (\neg A \rightarrow \neg B)
 $$
 那么，（3)和（1）等价吗？证明如下：
 $$
 \begin{align}
-(A \rarr B) \and (\neg A \rarr \neg B) &= (\neg A \or B) \and (A \or \neg B)\notag \\
-                                       &= ((\neg A \or B) \and A) \or ((\neg A \or B)\and \neg B) \notag \\
-                                       &=(\neg A \and A) \or (A \and B) \or (\neg A \and \neg B) \or (B \and \neg B) \notag \\
-                                       &=(A \and B) \or (\neg A \or \neg B) \notag
+(A \rightarrow B) \wedge (\neg A \rightarrow \neg B) &= (\neg A \or B) \wedge (A \or \neg B)\notag \\
+                                       &= ((\neg A \or B) \wedge A) \or ((\neg A \or B)\wedge \neg B) \notag \\
+                                       &=(\neg A \wedge A) \or (A \wedge B) \or (\neg A \wedge \neg B) \or (B \wedge \neg B) \notag \\
+                                       &=(A \wedge B) \or (\neg A \or \neg B) \notag
 \end{align}
 $$
 可见，这两个表达式是等价的。
@@ -96,15 +96,15 @@ $$
 
 根据题目分析，需要同时满足（1）和（2），就是：
 $$
-((A \and B) \or (\neg A \and \neg B)) \and ((B \and \neg A) \or (\neg B \and \neg A)) =T
+((A \wedge B) \or (\neg A \wedge \neg B)) \wedge ((B \wedge \neg A) \or (\neg B \wedge \neg A)) =T
 $$
 简化为：
 $$
 \begin{align}
-&=(\neg A \and \neg B)\or ((\ A \and B) \and(B \and \neg A)) \notag \\
-&=(\neg A \and \neg B)\or (B \and F) \notag \\
-&=(\neg A \and \neg B)\or F \notag \\
-&=(\neg A \and \neg B)
+&=(\neg A \wedge \neg B)\or ((\ A \wedge B) \wedge(B \wedge \neg A)) \notag \\
+&=(\neg A \wedge \neg B)\or (B \wedge F) \notag \\
+&=(\neg A \wedge \neg B)\or F \notag \\
+&=(\neg A \wedge \neg B)
 \end{align}
 $$
 

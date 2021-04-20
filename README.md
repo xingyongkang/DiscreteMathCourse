@@ -19,7 +19,7 @@
 
 
 
-##  1. chapter 1 逻辑与推理
+##   chapter 1 逻辑与推理
 
 
 
@@ -33,7 +33,7 @@
 
 
 
-## 2. chapter 2 基本结构
+## chapter 2 基本结构
 
 
 
@@ -45,17 +45,17 @@
 
 
 
-## 3 chapter 5 关系
+## chapter 5 关系
 
 
 
-| 文件名                                                       | 说明                                        |
-| ------------------------------------------------------------ | ------------------------------------------- |
-| chapter 05.pps                                               | 上课用ppt                                   |
-| [CountInSetAndRelation](https://zhuanlan.zhihu.com/p/365833162) | 一招解决集合与关系中的计数问题(md和pdf格式) |
-| hawksoft.relation                                            | 关系学习的python包。                        |
+| 文件名                                                       | 说明                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| chapter 05.pps                                               | 上课用ppt                                                    |
+| [CountInSetAndRelation](https://zhuanlan.zhihu.com/p/365833162) | 一招解决集合与关系中的计数问题(md和pdf格式)                  |
+| [hawksoft.relation](https://zhuanlan.zhihu.com/p/366467812)  | 关系学习的python包。[pypi地址](https://pypi.org/project/hawksoft.relation/) |
 
-## 4  AlgebraicSystem代数系统
+## AlgebraicSystem代数系统
 
 
 

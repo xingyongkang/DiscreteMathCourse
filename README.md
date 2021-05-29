@@ -70,8 +70,11 @@
 | ------------------------------------------------------- | ------------------------------------------------------------ |
 | chapter 06.ppsx                                         | 上课用ppt                                                    |
 | [aboutNetworkx](https://zhuanlan.zhihu.com/p/371818115) | 给图论初学者：利用networkx学习图论 （md和pdf格式）[csdn](https://blog.csdn.net/qq_43687094/article/details/116722134) |
+| assignment.md                                           | 作业                                                         |
 
+## quiz
 
+包含几次章节小测验的答案。
 
 
 

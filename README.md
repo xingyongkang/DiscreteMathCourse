@@ -72,6 +72,16 @@
 | [aboutNetworkx](https://zhuanlan.zhihu.com/p/371818115) | 给图论初学者：利用networkx学习图论 （md和pdf格式）[csdn](https://blog.csdn.net/qq_43687094/article/details/116722134) |
 | assignment.md                                           | 作业                                                         |
 
+
+
+## chapter 7 树
+
+| 文件名          | 说明      |
+| --------------- | --------- |
+| chapter 07.ppsx | 上课用ppt |
+
+
+
 ## quiz
 
 包含几次章节小测验的答案。
